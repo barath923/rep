@@ -30,4 +30,4 @@ jobs:
         python vpc & configuration.py
     - name: sample file execution
       run: |
-        pytest sample.py
+        python sample.py
