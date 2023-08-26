@@ -6,7 +6,7 @@ vpc="10.10.0.0/16"
 ##avazone=input("enter the Subnet's Availability Zone ")
 subnetcidr="10.10.0.0/24"
 routeentry="0.0.0.0/0"
-
+ 
 
 myvpc1 = client.create_vpc(
     CidrBlock='10.10.0.0/16',
